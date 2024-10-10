@@ -7,6 +7,17 @@ import TextButton from '../../common/components/buttons/TextButton';
 import { UiTexts } from '../../consts/uiTexts';
 
 function Home() {
+
+  const handleDownloadCV = () => {
+    const cvUrl = UiTexts.resume;
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = UiTexts.resumeDownloadAs;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className='flex flex-col justify-center items-center w-full'>
       <div className='w-full flex justify-center items-center'>
@@ -42,7 +53,7 @@ function Home() {
         </div>
       </div>
       <div className='mt-8'>
-        <TextButton description='Download CV' onClick={() => { }} />
+        <TextButton description='Download CV' onClick={handleDownloadCV} />
       </div>
     </div>
   )
