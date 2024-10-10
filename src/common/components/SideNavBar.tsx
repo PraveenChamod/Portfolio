@@ -40,6 +40,9 @@ function SideNavBar() {
                         <span className="text-white text-lg">&copy;</span>
                         <span className="pl-2">2024 Praveen Chamod</span>
                     </div>
+                    <div className="flex items-center justify-center">
+                        <span className="pl-1">All rights reserved.</span>
+                    </div>
                 </footer>
             </div>
         </div>
