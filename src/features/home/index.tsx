@@ -2,7 +2,9 @@ import React from 'react';
 import ProfileImage from '../../assets/images/images/profile.png';
 import GitHubIcon from '../../assets/images/icons/GitHub.png';
 import LinkedInIcon from '../../assets/images/icons/Linkedin.png';
+import HackerrankIcon from '../../assets/images/icons/Hackerrank.png';
 import StackOverflowIcon from '../../assets/images/icons/StackOverflow.png';
+import LeetcodeIcon from '../../assets/images/icons/Leetcode.png';
 import TextButton from '../../common/components/buttons/TextButton';
 import { UiTexts } from '../../consts/uiTexts';
 
@@ -37,18 +39,28 @@ function Home() {
       </div>
       <div className='flex flex-row justify-center items-center mt-8'>
         <div className='mr-2'>
-          <a href={UiTexts.github} target="_blank" rel="noopener noreferrer">
+          <a href={UiTexts.github} target="_blank" rel="noopener noreferrer" title="GitHub">
             <img src={GitHubIcon} alt="GitHub" className="w-10 h-10" />
           </a>
         </div>
         <div>
-          <a href={UiTexts.stackoverflow} target="_blank" rel="noopener noreferrer">
+          <a href={UiTexts.stackoverflow} target="_blank" rel="noopener noreferrer" title="StackOverFlow">
             <img src={StackOverflowIcon} alt="Stack Overflow" className="w-8 h-8" />
           </a>
         </div>
         <div className='ml-2'>
-          <a href={UiTexts.linkedin} target="_blank" rel="noopener noreferrer">
+          <a href={UiTexts.linkedin} target="_blank" rel="noopener noreferrer" title="LinkedIn">
             <img src={LinkedInIcon} alt="LinkedIn" className="w-13 h-13" />
+          </a>
+        </div>
+        <div className='ml-2'>
+          <a href={UiTexts.hackerrank} target="_blank" rel="noopener noreferrer" title="Hackerrank">
+            <img src={HackerrankIcon} alt="LinkedIn" className="w-9 h-9" />
+          </a>
+        </div>
+        <div className='ml-2'>
+          <a href={UiTexts.leetcode} target="_blank" rel="noopener noreferrer" title="Leetcode">
+            <img src={LeetcodeIcon} alt="LinkedIn" className="w-9 h-9" />
           </a>
         </div>
       </div>
