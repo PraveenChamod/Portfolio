@@ -20,7 +20,7 @@ function BackgroundAnimation() {
             options={{
                 background: {
                     color: {
-                        value: "#383955",
+                        value: "#101014",
                     },
                 },
                 fpsLimit: 120,

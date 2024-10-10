@@ -1,6 +1,5 @@
 export namespace CommonTypes {
     export interface IconButtonProps {
-        iconPath: string;
         buttonName: string;
         to: string;
         isSelected: boolean;

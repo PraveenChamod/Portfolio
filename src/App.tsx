@@ -7,7 +7,7 @@ import SideNavBar from './common/components/SideNavBar';
 function App() {
   return (
     <React.Fragment>
-      <div className='h-[100vh]'>
+      <div className='h-[100vh] text-[#c3c3c6]'>
         <BackgroundAnimation />
         <div className='relative z-10 flex flex-row h-full'>
           <div className='w-[400px] flex justify-center items-center hidden md:block overflow-y-auto'>
