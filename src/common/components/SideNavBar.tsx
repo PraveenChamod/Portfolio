@@ -4,25 +4,14 @@ import AboutMeIcon from '../../assets/images/icons/AboutMe.png';
 import BlogsIcon from '../../assets/images/icons/Blogs.png';
 import ProjectIcon from '../../assets/images/icons/Project.png';
 import PublicationsIcon from '../../assets/images/icons/Publications.png';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function SideNavBar() {
-    const [selectedButton, setSelectedButton] = useState(() => {
-        return localStorage.getItem("selectedButton") || "Home";
-    });
+    const [selectedButton, setSelectedButton] = useState("Home");
 
     const handleButtonClick = (buttonName : string) => {
         setSelectedButton(buttonName);
-        localStorage.setItem("selectedButton", buttonName);
     };
-
-    useEffect(() => {
-        const savedButton = localStorage.getItem("selectedButton");
-        if (savedButton) {
-            setSelectedButton(savedButton);
-        }
-    }, []);
-    
     return (
         <div className='flex justify-center item-center py-2 h-full'>
             <div className='w-full flex flex-col justify-between item-center border-r border-[#545AA7] py-6'>
