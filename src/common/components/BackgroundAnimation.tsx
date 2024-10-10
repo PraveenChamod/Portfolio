@@ -75,7 +75,7 @@ function BackgroundAnimation() {
                         value: 30,
                     },
                     opacity: {
-                        value: 0.6,
+                        value: 0.3,
                     },
                     shape: {
                         type: "images",

@@ -19,7 +19,7 @@ function SideNavBar() {
     }, []);
     return (
         <div className='flex justify-center item-center py-2 h-full'>
-            <div className='w-full flex flex-col justify-between item-center border-r border-[#545AA7] py-6'>
+            <div className='w-full flex flex-col justify-between item-center border-r border-[#75757a] py-6'>
                 <div className='flex items-center justify-center text-bold text-title-24'>
                     Praveen<span style={{ color: '#26bbff' }}>_</span>Chamod
                 </div>
