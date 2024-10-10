@@ -35,7 +35,10 @@ function Home() {
         <p className="text-[40px] font-bold">Praveen Chamod</p>
       </div>
       <div>
-        <p className="text-xl">Associate Software Engineer</p>
+        <p className="text-xl">BCS (Hons) In Computer Science</p>
+      </div>
+      <div>
+        <p className="text-xl">Software Engineer</p>
       </div>
       <div className="flex flex-row justify-center items-center mt-8">
         <div className="mr-2">
