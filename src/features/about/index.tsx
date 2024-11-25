@@ -13,7 +13,7 @@ function About() {
         </p>
       </div>
       <div>
-        <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px] text-center my-6">
+        <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px] text-center my-8">
           Industrial Experience
         </p>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-12">
@@ -51,6 +51,52 @@ function About() {
               </div>
             </div>
           ))}
+        </div>
+      </div>
+
+      <div>
+        <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px] text-center my-8">
+          Acedemic Excellence
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-12">
+          <div className="flex flex-col lg:flex-row items-center bg-[#F5F5F7] shadow-lg p-6 rounded-tl-[30px] rounded-bl-[30px] rounded-br-[30px] px-10">
+            <div className="w-full pl-0 lg:pl-6">
+              <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px] text-black">
+                Faculty of Science
+              </p>
+              <p className="text-[30px] text-black">
+                University of Ruhuna - Sri Lanka
+              </p>
+              <p className="text-lg text-black">Feb 2020 - Feb 2024</p>
+            </div>
+            <div className="w-full border-t-2 lg:border-t-0 lg:border-l-2 border-gray-300 pl-0 mt-4 lg:pt-0 lg:pl-6">
+              <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px] text-black">
+                Bachelor Of Computer Science (BCS)
+              </p>
+              <p className="text-lg text-black">
+                Second Class Lower Division Honours
+              </p>
+              <p className="text-lg text-black">GPA: 3.21 / 4.00</p>
+            </div>
+          </div>
+          <div className="flex flex-col lg:flex-row items-center bg-[#F5F5F7] shadow-lg p-6 rounded-tl-[30px] rounded-bl-[30px] rounded-br-[30px] px-10">
+            <div className="w-full pl-0 lg:pl-6 border-b-2 lg:border-b-0 lg:border-r-2 border-gray-300 pb-4 lg:pb-0" >
+              <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px] text-black">
+                Bandaranayake Central College
+              </p>
+              <p className="text-[30px] text-black">Veyangoda - Sri Lanka</p>
+              <p className="text-lg text-black">Physical Science Stream</p>
+            </div>
+            <div className="w-full pl-0 mt-4 lg:pl-6">
+              <p className="text-lg text-black">
+                GCE Advanced Level Examination (2018)
+              </p>
+              <p className="text-lg text-black">
+              Physics - B | Chemistry - B | Com. Mathematics - B
+              </p>
+              <p className="text-lg text-black">Z-Score: 1.3689</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
