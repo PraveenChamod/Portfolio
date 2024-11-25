@@ -19,9 +19,9 @@ function Home() {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center w-full">
+    <div className="flex flex-col justify-center items-center w-full p-8 pb-0 mt-[60px] mb-8">
       <div className="w-full flex justify-center items-center">
-        <div className="w-48 h-48 rounded-full mb-4 flex items-center justify-center bg-gradient-to-tr from-pink-500 to-purple-500 p-[3px] shadow-2xl hover:scale-105 transform transition duration-300 ease-in-out">
+        <div className="w-48 h-48 rounded-full mb-4 flex items-center justify-center bg-gradient-to-tr from-[#03346E] to-purple-500 p-[3px] shadow-2xl hover:scale-105 transform transition duration-300 ease-in-out">
           <div className="w-full h-full overflow-hidden rounded-full bg-white">
             <img
               src={ProfileImage}
@@ -32,13 +32,10 @@ function Home() {
         </div>
       </div>
       <div>
-        <p className="text-[40px] font-bold">Praveen Chamod</p>
+        <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px] text-center">Praveen Chamod</p>
       </div>
       <div>
-        <p className="text-xl">BCS (Hons) In Computer Science</p>
-      </div>
-      <div>
-        <p className="text-xl">Software Engineer</p>
+        <p className="text-[20px]">Software Engineer</p>
       </div>
       <div className="flex flex-row justify-center items-center mt-8">
         <div className="mr-2">
@@ -97,7 +94,7 @@ function Home() {
         </div>
       </div>
       <div className="mt-8">
-        <TextButton description="Download CV" onClick={handleDownloadCV} />
+        <TextButton description="My Resume" onClick={handleDownloadCV} />
       </div>
     </div>
   );

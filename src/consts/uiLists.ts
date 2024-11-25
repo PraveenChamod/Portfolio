@@ -1,9 +1,26 @@
-export namespace uiLists {
-    export const languageExposure: string[] = ['C#', 'Typescript', 'Javascript', 'Dart', 'Jquery', 'Java'];
-    export const frameworks: string[] = ['.NET Framework', '.NET Core', 'Entity Framework', 'Springboot'];
-    export const frontend: string[] = ['HTML5', 'TailwindCSS', 'React', 'JSON', 'MaterialUI', 'Bootstrap', 'Redux'];
-    export const dbManagement: string[] = ['MS SQL Server', 'pgAdmin4'];
-    export const toolsAndPractices: string[] = [ 'Git', 'JIRA', 'Bitbucket', 'Docker', 'Source Tree', 'Confluence', 'Kafka', 'CI/CD'];
-    export const softwareDesign: string[] = ['Object-Oriented Programming', 'Clean Architecture', 'MVC Architecture'];
-    export const otherSkills: string[] = ['Problem Solving', 'Teamwork', 'Time Management', 'Communication', 'Adaptability'];
-}
+import FidenzLogo from "../../src/assets/images/images/FidenzLogo.png";
+
+export const experienceList = [
+  {
+    company: "Fidenz Technologies",
+    logo: FidenzLogo,
+    link: "https://fidenz.com/",
+    position: "Associate Software Engineer",
+    duration: "November 2023 - Present",
+    skills: ["React", "Python", "OracleDB"],
+  },
+  {
+    company: "Fidenz Academy",
+    logo: FidenzLogo,
+    link: "https://fidenz.com/",
+    position: "Trainee Software Engineer",
+    duration: "September 2023 - November 2023",
+    skills: [
+      "React",
+      ".NET Core",
+      "Azure DevOps",
+      "SQL Server",
+      "Clean Architecture",
+    ],
+  },
+];

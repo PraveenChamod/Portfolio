@@ -4,11 +4,13 @@
 
 body {
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
+  padding: 0;
+  font-family: 'Gilroy', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #1D1D28;
-  color: #f4e9da;
+  min-width: 256px;
+  overflow-x: auto;
 }
 
 code {

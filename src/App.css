@@ -1,3 +1,18 @@
 .App {
   text-align: center;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/gilroy-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
