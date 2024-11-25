@@ -16,3 +16,7 @@ html {
 section {
   scroll-margin-top: 90px;
 }
+
+.projectSection {
+  scroll-margin-top: 70px;
+}

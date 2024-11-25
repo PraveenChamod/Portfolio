@@ -11,7 +11,7 @@ function page() {
       <section id="about">
         <About />
       </section>
-      <section id="project">
+      <section id="project" className="projectSection">
         <Project />
       </section>
     </div>
