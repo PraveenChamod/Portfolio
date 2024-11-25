@@ -3,7 +3,7 @@ import { experienceList } from "../../consts/uiLists";
 
 function About() {
   return (
-    <div className="flex flex-col justify-start items-left w-full h-full lg:px-80 md:px-20 sm:px-10 px-10">
+    <div className="flex flex-col justify-start items-left w-full h-full lg:px-60 md:px-20 sm:px-20 px-10">
       <div className="p-8 rounded-tl-[30px] rounded-bl-[30px] rounded-br-[30px] shadow-lg bg-gradient-to-tr from-[#03346E] to-purple-500">
         <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px]">
           WHO AM I ?
@@ -12,15 +12,15 @@ function About() {
           {UiTexts.introduction}
         </p>
       </div>
-      <div className="">
-        <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px] text-center my-8">
+      <div>
+        <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px] text-center my-6">
           Industrial Experience
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-12">
           {experienceList.map((experience, index) => (
             <div
               key={index}
-              className="flex flex-col md:flex-row items-center bg-[#F5F5F7] shadow-lg p-6 rounded-tl-[30px] rounded-bl-[30px] rounded-br-[30px]"
+              className="flex flex-col lg:flex-row items-center bg-[#F5F5F7] shadow-lg p-6 rounded-tl-[30px] rounded-bl-[30px] rounded-br-[30px] px-10"
             >
               <a
                 href={experience.link}
@@ -30,10 +30,10 @@ function About() {
                 <img
                   src={experience.logo}
                   alt={`${experience.company} logo`}
-                  className="w-60 h-20 object-contain mb-4 md:mb-0 md:mr-6"
+                  className="w-60 h-20 object-contain mb-4 lg:mb-0 lg:pr-6"
                 />
               </a>
-              <div className="border-t-2 md:border-t-0 md:border-l-2 border-gray-300 pl-6 pt-6 sm:pt-0">
+              <div className="w-full border-t-2 lg:border-t-0 lg:border-l-2 border-gray-300 pl-0 pt-6 lg:pt-0 lg:pl-6">
                 <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px] text-black">
                   {experience.company}
                 </p>
@@ -41,7 +41,7 @@ function About() {
                 <p className="text-sm font-bold text-black">
                   {experience.duration}
                 </p>
-                <div className="mt-2 flex flex-wrap gap-2">
+                <div className="mt-4 flex flex-wrap gap-2">
                   {experience.skills.map((skill, idx) => (
                     <div className="text-lg bg-gradient-to-tr from-[#03346E] to-purple-500 border rounded-tl-[30px] rounded-bl-[30px] rounded-br-[30px]">
                       <p className="p-2">{skill}</p>

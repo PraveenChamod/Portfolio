@@ -7,7 +7,7 @@ export const experienceList = [
     link: "https://fidenz.com/",
     position: "Associate Software Engineer",
     duration: "November 2023 - Present",
-    skills: ["React", "Python", "OracleDB"],
+    skills: ["React", ".NET Core", "Typescript", "Tailwind", "MS SQL Server", "SSIS", "Docker", "Kafka", "CI/CD", "AWS"],
   },
   {
     company: "Fidenz Academy",
@@ -18,9 +18,13 @@ export const experienceList = [
     skills: [
       "React",
       ".NET Core",
-      "Azure DevOps",
-      "SQL Server",
+      "Javascript",
+      "PostgreSQL",
       "Clean Architecture",
+      "MVC",
+      "N-Tier",
+      "Auth0",
+      "Bootstrap"
     ],
   },
 ];
