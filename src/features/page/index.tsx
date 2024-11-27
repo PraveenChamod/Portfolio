@@ -18,6 +18,15 @@ function page() {
       <section id="contact">
         <Contact />
       </section>
+      <footer className="text-[#75757a] mb-12">
+        <div className="flex items-center justify-center">
+          <span className="text-lg">&copy;</span>
+          <span className="pl-2">2024 Praveen Chamod</span>
+        </div>
+        <div className="flex items-center justify-center">
+          <span className="pl-1">All rights reserved.</span>
+        </div>
+      </footer>
     </div>
   );
 }
