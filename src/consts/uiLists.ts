@@ -41,7 +41,7 @@ export const projectList = [
     projectName: "Invicon",
     projectDescription: "API for manage large scaled inventories in warehouses with the use of .NET best practices.",
     link: "https://github.com/PraveenChamod/Inventory_Control_System",
-    technologies: [".NET Core", "Entity Framework", "JWT", "pgAdmin4", "N-Tier Architecture", "REST"],
+    technologies: [".NET Core", "EF Core", "JWT", "pgAdmin4", "N-Tier", "AWS", "EC2", "Docker"],
   },
   {
     logo: Servenet,
