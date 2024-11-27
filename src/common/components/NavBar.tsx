@@ -45,7 +45,7 @@ function NavBar() {
               <li onClick={() => handleScrollToSection("project")}>
                 <button>Projects</button>
               </li>
-              <li onClick={() => handleScrollToSection("")}>
+              <li onClick={() => handleScrollToSection("contact")}>
                 <button>Contact</button>
               </li>
             </ul>

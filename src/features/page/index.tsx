@@ -1,6 +1,7 @@
 import Home from "../home";
 import About from "../about";
 import Project from "../project";
+import Contact from "../contact";
 
 function page() {
   return (
@@ -13,6 +14,9 @@ function page() {
       </section>
       <section id="project" className="projectSection">
         <Project />
+      </section>
+      <section id="contact">
+        <Contact />
       </section>
     </div>
   );

@@ -2,7 +2,7 @@ import { projectList } from "../../consts/uiLists";
 
 function Project() {
   return (
-    <div className="sm:px-20 px-10 mb-8">
+    <div className="sm:px-20 px-10">
       <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px] text-center my-8">
         Project Experience
       </p>

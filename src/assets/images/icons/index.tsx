@@ -3,3 +3,5 @@ export { ReactComponent as AboutMeIcon } from './AboutMe.svg';
 export { ReactComponent as BlogsIcon } from './Blogs.svg';
 export { ReactComponent as ProjectIcon } from './Project.svg';
 export { ReactComponent as PublicationsIcon } from './Publications.svg';
+export { ReactComponent as MailIcon } from './Mail.svg';
+export { ReactComponent as PhoneIcon } from './Phone.svg';
