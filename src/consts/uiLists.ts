@@ -75,7 +75,7 @@ export const projectList = [
     logo: Resto,
     projectName: "Resto",
     projectDescription: "An platform Automated restaurant operations with multi-user access. Collaborative development project in university",
-    link: "https://fidenz.com/",
+    link: "https://github.com/PraveenChamod/Restaurant_Internal_Process_Mangement_System",
     technologies: ["MERN", "Flutter", "JWT", "Stripe", "Material UI", "Andriod Studio"],
   }
 ];
