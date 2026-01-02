@@ -1,4 +1,5 @@
 import FidenzLogo from "../../src/assets/images/images/FidenzLogo.png";
+import RhapsodyLogo from "../../src/assets/images/images/RhapsodyLogo.png";
 import Invicon from "../../src/assets/images/images/Invicon.png";
 import Servenet from "../../src/assets/images/images/Servenet.png";
 import CustKonnect from "../../src/assets/images/images/CustKonnect.png";
@@ -8,11 +9,19 @@ import Resto from "../../src/assets/images/images/Resto.png";
 
 export const experienceList = [
   {
+    company: "Rhapsody",
+    logo: RhapsodyLogo,
+    link: "https://rhapsody.health/",
+    position: "Software Engineer",
+    duration: "April 2025 - Present",
+    skills: [".NET Core", "React", "Typescript", "MS SQL Server", "FHIR", "HL7", "GitHub Actions", "Docker", "CI/CD", "AWS"],
+  },
+  {
     company: "Fidenz Technologies",
     logo: FidenzLogo,
     link: "https://fidenz.com/",
     position: "Software Engineer",
-    duration: "January 2025 - Present",
+    duration: "January 2025 - March 2025",
     skills: ["React", ".NET Core", "Typescript", "Tailwind", "MS SQL Server", "TSQL", "SSIS", "Docker", "Kafka", "CI/CD", "AWS"],
   },
   {

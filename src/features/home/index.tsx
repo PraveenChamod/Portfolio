@@ -4,19 +4,19 @@ import LinkedInIcon from "../../assets/images/icons/Linkedin.png";
 import HackerrankIcon from "../../assets/images/icons/Hackerrank.png";
 import StackOverflowIcon from "../../assets/images/icons/StackOverflow.png";
 import LeetcodeIcon from "../../assets/images/icons/Leetcode.png";
-import TextButton from "../../common/components/buttons/TextButton";
+//import TextButton from "../../common/components/buttons/TextButton";
 import { UiTexts } from "../../consts/uiTexts";
 
 function Home() {
-  const handleDownloadCV = () => {
-    const cvUrl = UiTexts.resume;
-    const link = document.createElement("a");
-    link.href = cvUrl;
-    link.download = UiTexts.resumeDownloadAs;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  // const handleDownloadCV = () => {
+  //   const cvUrl = UiTexts.resume;
+  //   const link = document.createElement("a");
+  //   link.href = cvUrl;
+  //   link.download = UiTexts.resumeDownloadAs;
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
 
   return (
     <div className="flex flex-col justify-center items-center w-full p-8 pb-0 mt-[60px] mb-8">
@@ -93,9 +93,9 @@ function Home() {
           </a>
         </div>
       </div>
-      <div className="mt-8">
+      {/* <div className="mt-8">
         <TextButton description="My Resume" onClick={handleDownloadCV} />
-      </div>
+      </div> */}
     </div>
   );
 }

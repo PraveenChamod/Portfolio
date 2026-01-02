@@ -6,7 +6,7 @@ function About() {
     <div className="flex flex-col justify-start items-left w-full h-full lg:px-60 md:px-20 sm:px-20 px-10">
       <div className="p-8 rounded-tl-[30px] rounded-bl-[30px] rounded-br-[30px] shadow-lg bg-gradient-to-tr from-[#03346E] to-purple-500">
         <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px]">
-          WHO AM I ?
+          IT ALL STARTED WITH CURIOSITY...
         </p>
         <p className="mt-4 text-sm sm:text-xl text-justify">
           {UiTexts.introduction}
