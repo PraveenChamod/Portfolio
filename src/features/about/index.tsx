@@ -37,8 +37,9 @@ function About() {
                 <p className="text-[30px] sm:text-[40px] md:text-[40px] lg:text-[40px] text-black">
                   {experience.company}
                 </p>
-                <p className="text-lg text-black">{experience.position}</p>
-                <p className="text-sm font-bold text-black">
+                <p className="text-md text-black">{experience.location}</p>
+                <p className="text-lg font-bold text-black">{experience.position}</p>
+                <p className="text-sm text-black">
                   {experience.duration}
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2">
